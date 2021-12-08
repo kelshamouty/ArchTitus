@@ -33,7 +33,7 @@ echo -e "  ███ ▀███▄ ███   ▄███   ███    █
 echo -e "  ███   ▀█▀ ████████▀    ███    █▀    ███    ███ ████████▀    ███    █▀    "
 echo -e "  ▀                                   ███    ███                           "
 echo -e " --------------------------------------------------------------------------"
-echo -e "-Setting up $iso mirrors for faster downloads"
+echo -e "-Setting up $iso mirrors for faster downloads :)"
 echo -e "-------------------------------------------------------------------------"
 
 reflector -a 48 -c $iso -f 5 -l 20 --sort rate --save /etc/pacman.d/mirrorlist
